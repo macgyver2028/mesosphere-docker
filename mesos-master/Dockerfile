@@ -1,4 +1,4 @@
-FROM vtajzich/mesosphere-docker-mesos-base	
+FROM pkadetiloye/mesosphere-docker-mesos-base	
 
 # Installing zookeeper.  Seems to be a dependancy to mesos
 # Not going to start it on runtime though

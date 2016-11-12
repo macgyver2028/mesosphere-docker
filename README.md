@@ -82,7 +82,7 @@ The above steps can be done using docker-compose
         
 Optionally, you can scale the mesos slaves node
 
-        docker-compose scale mesos=3    
+        docker-compose scale mesos_slave=3    
 
 
 # Multi-node Setup
