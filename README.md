@@ -75,6 +75,16 @@ You then can goto the Marathon's web page and submit a job.
 
          ssh -F ssh.config -L 5050:${HOST_IP}:5050 -L 8080:${HOST_IP}:8080 core@${HOST_IP}
 
+# Docker-Compose
+The above steps can be done using docker-compose
+
+        docker-compose up -d
+        
+Optionally, you can scale the mesos slaves node
+
+        docker-compose scale mesos=3    
+
+
 # Multi-node Setup
 For this setup, we will need 2 servers with Docker installed on it.
 
